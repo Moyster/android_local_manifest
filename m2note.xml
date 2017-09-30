@@ -2,6 +2,9 @@
 <manifest>
 	<remote fetch="git://github.com/" name="gh" /> 
 
+<!-- TWRP -->
+        <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="gh" revision="android-7.1" />
+
 <!-- LineageOS dependencies -->
 	<project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" />
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" />
