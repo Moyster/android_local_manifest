@@ -17,5 +17,5 @@ Build the code:
 
     source build/envsetup.sh
     breakfast m2note
-    make -j 4 bacon showcommands 2>&1 | tee build.log
+    make -j4 bacon showcommands 2>&1 | tee build.log
   
