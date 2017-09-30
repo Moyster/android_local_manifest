@@ -7,7 +7,7 @@
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" />
 
 <!-- M2 Note -->
-        <project name="Moyster/android_kernel_m2note" path="kernel/meizu/m2note" remote="gh" revision="ng-7" />
+        <project name="Moyster/android_kernel_m2note" path="kernel/meizu/m2note" remote="gh" revision="ng-7.1.2" />
         <project name="Moyster/android_vendor_meizu_m2note" path="vendor/meizu/m2note" remote="gh" revision="los-14.1" />
         <project name="Moyster/nougat_device_meizu_m2note" path="device/meizu/m2note" remote="gh" revision="los-14.1" />
 </manifest>
