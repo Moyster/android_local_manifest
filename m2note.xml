@@ -4,6 +4,7 @@
 
 <!-- TWRP -->
         <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="gh" revision="android-7.1" />
+	<project path="external/busybox" name="omnirom/android_external_busybox" clone-depth="1" remote="gh" revision="android-7.1" />
 
 <!-- LineageOS dependencies -->
 	<project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" />
