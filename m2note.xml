@@ -14,4 +14,9 @@
         <project name="Moyster/android_kernel_m2note" path="kernel/meizu/m2note" remote="gh" revision="ng-7.1.2" />
         <project name="Moyster/android_vendor_meizu_m2note" path="vendor/meizu/m2note" remote="gh" revision="los-14.1" />
         <project name="Moyster/nougat_device_meizu_m2note" path="device/meizu/m2note" remote="gh" revision="los-14.1" />
+
+<!-- WireGuard -->
+        <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+        <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+	
 </manifest>
